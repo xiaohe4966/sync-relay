@@ -1,0 +1,23 @@
+# Compiled binaries
+squadsync-relay
+squadsync-relay.linux-amd64
+*.exe
+
+# Go test/coverage
+*.test
+*.out
+coverage.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local secrets
+.env
+.env.local
